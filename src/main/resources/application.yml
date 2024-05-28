@@ -5,7 +5,6 @@ spring:
     url: ${db_url}
     username: ${db_username}
     password: ${db_password}
-    driver-class-name: com.mysql.cj.jdbc.Driver
   servlet:
     multipart:
       max-file-size: 10MB
