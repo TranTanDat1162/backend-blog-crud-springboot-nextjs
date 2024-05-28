@@ -1,7 +1,3 @@
-server:
-  tomcat:
-    max-swallow-size: -1
-    max-http-form-post-size: -1
 spring:
   datasource:
     url: ${db_url}
