@@ -1,8 +1,9 @@
 spring:
   datasource:
-    url: ${db_url}
-    username: ${db_username}
-    password: ${db_password}
+    url: mysql://root:YStKYznrQwOARSrxznAxTPmrdCkjmOZT@monorail.proxy.rlwy.net:45921/railway?sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false
+    username: root
+    password: YStKYznrQwOARSrxznAxTPmrdCkjmOZT
+
     driver-class-name: com.mysql.cj.jdbc.Driver
   servlet:
     multipart:
